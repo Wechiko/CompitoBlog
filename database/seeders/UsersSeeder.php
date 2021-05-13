@@ -22,6 +22,7 @@ class UsersSeeder extends Seeder
         $user->password = Hash::make('password');
         $user->save();
 
+
         User::factory()->count(50)->create();
     }
 }

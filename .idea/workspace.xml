@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77f04b25-e3d4-42d1-812c-dd59a7111c44" name="Default Changelist" comment="" />
+    <list default="true" id="77f04b25-e3d4-42d1-812c-dd59a7111c44" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/UsersSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/UsersSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +18,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -121,6 +132,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1s1hVk2eY3QsF5Xz3dXNfN76V1C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -128,19 +140,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/posts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="\\wsl$\Ubuntu-20.04\progetti\example-appp\resources\views\posts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\progetti\example-appp\resources\views\posts" />
       <recent name="\\wsl$\Ubuntu-20.04\progetti\example-appp\resources\views" />
       <recent name="\\wsl$\Ubuntu-20.04\progetti\example-appp\database\migrations" />
       <recent name="\\wsl$\Ubuntu-20.04\progetti\example-appp\app\Models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\progetti\example-appp\resources\views\posts" />
     </key>
   </component>
   <component name="RunManager">
@@ -164,7 +177,11 @@
       <workItem from="1620735576968" duration="6532000" />
       <workItem from="1620763475352" duration="1839000" />
       <workItem from="1620807161390" duration="172000" />
-      <workItem from="1620815816219" duration="2038000" />
+      <workItem from="1620815816219" duration="2498000" />
+      <workItem from="1620824393389" duration="1712000" />
+      <workItem from="1620908714516" duration="5035000" />
+      <workItem from="1620922671473" duration="18000" />
+      <workItem from="1620936037385" duration="10295000" />
     </task>
     <servers />
   </component>
@@ -176,18 +193,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="911" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620210138869" />
-    <state x="748" y="289" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1620737123750">
+    <state x="748" y="289" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1620914519020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="748" y="289" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620737123750" />
+    <state x="748" y="289" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620914519020" />
     <state x="503" y="130" width="1031" height="809" key="DiffContextDialog" timestamp="1620741722561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="503" y="130" width="1031" height="809" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620741722561" />
-    <state x="798" y="289" key="FileChooserDialogImpl" timestamp="1620807184791">
+    <state x="798" y="289" key="FileChooserDialogImpl" timestamp="1620922685693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="798" y="289" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1620807184791" />
+    <state x="798" y="289" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1620922685693" />
     <state x="774" y="257" key="NewPhpClassDialog" timestamp="1620210310918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

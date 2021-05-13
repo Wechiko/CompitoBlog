@@ -3,11 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Models\Post;
+use App\Models\User;
 use Dotenv\Validator;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
-use function GuzzleHttp\Promise\all;
+
 
 
 class PostsController extends Controller
@@ -48,6 +50,8 @@ class PostsController extends Controller
             'text' => 'nullable|string',
         ]);
 
+
+
         $post = Post::create(request(['title', 'text']));
         return redirect()->to('/posts');
 
@@ -73,7 +77,7 @@ class PostsController extends Controller
      */
     public function edit($id)
     {
-        //
+
     }
 
     /**
@@ -85,7 +89,7 @@ class PostsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+
     }
 
     /**
@@ -99,6 +103,8 @@ class PostsController extends Controller
 
         $post = Post::find($id);
         $post->delete();
+
+
         return redirect()->to('/posts');
     }
 }

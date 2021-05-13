@@ -21,10 +21,9 @@
 <div class="content">
     <form method="post" action="{{route('posts.store')}}">
         @csrf
-        Lista posts
         <div class="form-group">
             <label for="title">Title:</label>
-            <input type="text" class="form-control" id="title" name="title">
+            <input type="text" class="form-control"  id="title" name="title">
         </div>
 
         <div class="form-group">

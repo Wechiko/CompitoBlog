@@ -19,6 +19,10 @@ class CreatePostsTable extends Migration
             $table->string('text')->nullable();
             $table->timestamps();
         });
+
+
+
+
     }
 
     /**
@@ -28,6 +32,7 @@ class CreatePostsTable extends Migration
      */
     public function down()
     {
+
         Schema::dropIfExists('posts');
     }
 }
