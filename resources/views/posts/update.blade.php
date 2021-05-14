@@ -19,29 +19,34 @@
 
 <!-- CONTENT -->
 <div class="content">
-    <form action="{{ route('posts.edit', $post->id)}}" method="POST">
+    <form action="{{ route('posts.update', $post->id)}}" method="POST">
         @csrf
-        @method('PUT')
+        @method('PATCH')
         Lista posts
         <div class="form-group">
             <label for="title">Title:</label>
-            <input  type="text" class="form-control"  id="title" name="title">
+            <input  type="text" class="form-control" value="{{$post->title}}" id="title" name="title">
         </div>
 
         <div class="form-group">
             <label for="text">Text:</label>
-            <input type="text" class="form-control" id="text" name="text">
+            <input type="text" class="form-control" value="{{$post->text}}" id="text" name="text">
         </div>
         <div class="form-group">
-            <button style="cursor:pointer" type="submit" class="btn btn-primary" >Submit</button>
+            <button style="cursor:pointer" type="submit" class="btn btn-primary"  >Submit</button>
         </div>
 
     </form>
+    <img  src="{{asset('images/')}}"/>
+
+
+
 </div>
 </body>
 
 </html>
 
 <style>
+
 
 </style>
