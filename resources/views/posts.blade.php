@@ -25,7 +25,7 @@
 <div class="content">
     <table>
         <div class="creare">
-            <button class="new" href="{{ route('posts.create') }}">-->New Post<--</button>
+            <a class="new" href="{{ route('posts.create') }}">-->New Post<--</a>
         </div>
         <caption>Posts List</caption>
 
@@ -110,12 +110,12 @@ caption{
     .btn{
         position: center;
         display: block;
-        color: white;
+        color: #ffffff;
         font-size: 10px;
         font-family: "montserrat";
         text-decoration: none;
-        border: 2px solid #ae53d6;
-        padding: 1px 3px;
+        border: 2px solid #ffffff;
+        padding: 2px 3px;
         text-transform: uppercase;
         overflow: hidden;
         transition: 1s all ease;
@@ -123,7 +123,7 @@ caption{
 
     }
     .btn::before{
-        background: #e138ff;
+        background: #ca5ffa;
         content: "";
         position: absolute;
         top: 50%;
